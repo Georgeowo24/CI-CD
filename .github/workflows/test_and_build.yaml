@@ -23,5 +23,4 @@ jobs:
     #   working-directory: src
     #   run: ruff check .
     - name: Test with pytest
-      working-directory: src
-      run: pytest tests.py
+      run: pytest -q src/tests.py

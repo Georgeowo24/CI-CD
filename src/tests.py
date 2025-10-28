@@ -1,4 +1,5 @@
-from main import Calculator
+from src.main import Calculator
+
 
 def test_sum_2_numbers():
-    assert Calculator().sum(2,2) == 4
+    assert Calculator().sum(2, 2) == 4
