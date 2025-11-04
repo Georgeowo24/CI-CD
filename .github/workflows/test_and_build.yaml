@@ -34,4 +34,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: ghcr.io/georgeowo24/CI-CD:latest
+        tags: ghcr.io/georgeowo24/ci-cd:latest
